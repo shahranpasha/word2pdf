@@ -1,6 +1,9 @@
+[build.environment]
+  NODE_VERSION = "20"
+
 [build]
   base = "Frontend"
-  publish = "Frontend/dist"
+  publish = "dist"
   command = "npm install && npm run build"
 
 [[redirects]]
